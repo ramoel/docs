@@ -65,6 +65,12 @@ Podemos testar a instalação do JDK com o seguinte comando:
 $ java -version
 ```
 
+> **Se a sua versão for diferente, faça:**
+
+```console
+$ sudo update-alternatives --config java
+```
+
 #### Instalando libs gráficas
 
 Em grande parte das vezes precisamos instalar algumas bibliotecas da versão 32bits do Linux para conseguir emular nosso projeto e para isso vamos utilizar o seguinte comando:
